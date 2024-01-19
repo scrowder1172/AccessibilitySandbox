@@ -12,6 +12,7 @@
 		525AFC3B2B587A67008AA6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525AFC3A2B587A67008AA6E3 /* Assets.xcassets */; };
 		525AFC3E2B587A67008AA6E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525AFC3D2B587A67008AA6E3 /* Preview Assets.xcassets */; };
 		525AFC452B587B5E008AA6E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525AFC442B587B5E008AA6E3 /* Launch Screen.storyboard */; };
+		525AFC482B587C2C008AA6E3 /* UsefulLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525AFC472B587C2C008AA6E3 /* UsefulLabelsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		525AFC3A2B587A67008AA6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525AFC3D2B587A67008AA6E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		525AFC442B587B5E008AA6E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		525AFC472B587C2C008AA6E3 /* UsefulLabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulLabelsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				525AFC362B587A64008AA6E3 /* AccessibilitySandboxApp.swift */,
 				525AFC382B587A64008AA6E3 /* ContentView.swift */,
 				525AFC3A2B587A67008AA6E3 /* Assets.xcassets */,
+				525AFC462B587C15008AA6E3 /* TutorialFiles */,
 				525AFC3C2B587A67008AA6E3 /* Preview Content */,
 				525AFC442B587B5E008AA6E3 /* Launch Screen.storyboard */,
 			);
@@ -68,6 +71,14 @@
 				525AFC3D2B587A67008AA6E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		525AFC462B587C15008AA6E3 /* TutorialFiles */ = {
+			isa = PBXGroup;
+			children = (
+				525AFC472B587C2C008AA6E3 /* UsefulLabelsView.swift */,
+			);
+			path = TutorialFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525AFC482B587C2C008AA6E3 /* UsefulLabelsView.swift in Sources */,
 				525AFC392B587A64008AA6E3 /* ContentView.swift in Sources */,
 				525AFC372B587A64008AA6E3 /* AccessibilitySandboxApp.swift in Sources */,
 			);
