@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521C489A2B5AE3BB00F244B8 /* HideAndGroupAccessibilityItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C48992B5AE3BB00F244B8 /* HideAndGroupAccessibilityItemsView.swift */; };
 		525AFC372B587A64008AA6E3 /* AccessibilitySandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525AFC362B587A64008AA6E3 /* AccessibilitySandboxApp.swift */; };
 		525AFC392B587A64008AA6E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525AFC382B587A64008AA6E3 /* ContentView.swift */; };
 		525AFC3B2B587A67008AA6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525AFC3A2B587A67008AA6E3 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521C48992B5AE3BB00F244B8 /* HideAndGroupAccessibilityItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideAndGroupAccessibilityItemsView.swift; sourceTree = "<group>"; };
 		525AFC332B587A64008AA6E3 /* AccessibilitySandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilitySandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525AFC362B587A64008AA6E3 /* AccessibilitySandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySandboxApp.swift; sourceTree = "<group>"; };
 		525AFC382B587A64008AA6E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				525AFC472B587C2C008AA6E3 /* UsefulLabelsView.swift */,
+				521C48992B5AE3BB00F244B8 /* HideAndGroupAccessibilityItemsView.swift */,
 			);
 			path = TutorialFiles;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				525AFC482B587C2C008AA6E3 /* UsefulLabelsView.swift in Sources */,
 				525AFC392B587A64008AA6E3 /* ContentView.swift in Sources */,
+				521C489A2B5AE3BB00F244B8 /* HideAndGroupAccessibilityItemsView.swift in Sources */,
 				525AFC372B587A64008AA6E3 /* AccessibilitySandboxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
